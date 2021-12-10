@@ -1,0 +1,39 @@
+<div class="container">   
+    <div class="jumbotron">
+        <h1 class="display-4">Cursos</h1>
+        <p class="lead">Bienvenido a los diversos tipos de cursos de nuestra plataforma</p>
+        <hr class="my-4">
+        <p>Selecciona el curso que mas te guste</p>
+    </div>
+    <br>
+    <div class="jumbotron">
+        <h3 class="display-4">Google Ads</h3>
+        <p class="lead">Prof Carlos Gonzalez</p>
+        <hr class="my-4">
+        <p>Horario: Lunes a Viernes 10am-12pm </p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/iQdCSC5OH8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
+    <br>
+    <div class="col-md-5 mx-auto">
+        <div class="abs-center">
+            <div class="card-header">
+                <h2>New note</h2>
+            </div>
+            <div class="card-body">
+                <form action="/notes/new-note" method="POST">
+                    <div class="form-group">     
+                        <input type="text" name="tittle" class="form-contol" placeholder="tittle">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="description" placeholder="Description" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-pimary btn-block">
+                            Save
+                        </button> 
+                    </div>       
+                </form>     
+            </div>
+        </div>
+    </div>
+</div>    
